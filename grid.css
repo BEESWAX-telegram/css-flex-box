@@ -1,0 +1,65 @@
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Light-blue: hsl(184, 50%, 73%);
+    --Dark-orange: hsl(0, 100%, 44%);
+    --olive-green: hsl(143, 94%, 44%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+* {
+    background-color: var(--very-dark-cyan);
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.first-grid{
+    width: 80%;
+    display: flex;
+    
+    height: 100vh;
+
+}
+
+.second-grid {
+    width: 80%;
+    display: flex; 
+    height: 100vh;
+    margin: 10px;
+
+}
+
+.grid1 {
+    background-color: var(--Dark-orange) ;
+    width: 75%;
+    margin: 10px;
+  }
+  .grid2 {
+    background-color: var(--Bright-orange) ;
+    width: 25%;
+    margin: 10px;
+  }
+  .empty{
+    background-color: var(--olive-green);
+    width: 40%;
+    margin: 10px;
+  }
+  .empty2 {
+    width: 60%;
+    margin: 10px;
+  }
+  .grid3 {
+    height: 50%;
+    margin-bottom: 10px;
+    background-color: var(--Light-blue) ;
+  }
+  .grid4 {
+    height: 50%;
+    background-color: var(--Light-blue) ;
+    margin-bottom: 10px;
+  }
+    
+  
+
+  
+  
